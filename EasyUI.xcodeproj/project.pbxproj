@@ -14,6 +14,8 @@
 		AA9B887D25419E2A00E111AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9B887B25419E2A00E111AF /* Main.storyboard */; };
 		AA9B887F25419E2E00E111AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9B887E25419E2E00E111AF /* Assets.xcassets */; };
 		AA9B888225419E2E00E111AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9B888025419E2E00E111AF /* LaunchScreen.storyboard */; };
+		AA9B88882541AEB000E111AF /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88872541AEB000E111AF /* CustomView.swift */; };
+		AA9B888A2541BB1100E111AF /* ViewCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88892541BB1100E111AF /* ViewCustomization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AA9B887E25419E2E00E111AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9B888125419E2E00E111AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9B888325419E2E00E111AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9B88872541AEB000E111AF /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		AA9B88892541BB1100E111AF /* ViewCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			children = (
 				AA9B886725419D6500E111AF /* EasyUI.h */,
 				AA9B886825419D6500E111AF /* Info.plist */,
+				AA9B88872541AEB000E111AF /* CustomView.swift */,
+				AA9B88892541BB1100E111AF /* ViewCustomization.swift */,
 			);
 			path = EasyUI;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 				TargetAttributes = {
 					AA9B886325419D6500E111AF = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					AA9B887225419E2A00E111AF = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -200,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9B888A2541BB1100E111AF /* ViewCustomization.swift in Sources */,
+				AA9B88882541AEB000E111AF /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +367,7 @@
 		AA9B886D25419D6500E111AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QMVB9NPB2C;
@@ -374,6 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com..wihstmage.EasyUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +393,7 @@
 		AA9B886E25419D6500E111AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QMVB9NPB2C;
