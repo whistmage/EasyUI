@@ -1,5 +1,5 @@
 //
-//  CustomCollectionViewCell.swift
+//  CustomTableViewHeaderFooterView.swift
 //  EasyUI
 //
 //  Created by Ivan Miroshnik on 24.10.2020.
@@ -8,18 +8,18 @@
 
 import UIKit
 
-@IBDesignable class CustomCollectionViewCell: UICollectionViewCell, ViewCustomization {
-    
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
+@IBDesignable class CustomTableViewHeaderFooterView: UITableViewHeaderFooterView, ViewCustomization {
+
+    public override init(reuseIdentifier: String?) {
+        super.init(reuseIdentifier: reuseIdentifier)
         setupView()
     }
 
-    public required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
         setupView()
     }
-    
+
     public func addSubviws() {
         
     }
@@ -43,4 +43,3 @@ import UIKit
         configureSubviewsLayout()
     }
 }
-
