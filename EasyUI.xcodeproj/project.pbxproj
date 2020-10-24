@@ -25,6 +25,7 @@
 		AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */; };
 		AA9B889A2544596200E111AF /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88992544596200E111AF /* Extension+UILabel.swift */; };
 		AA9B889C254467CD00E111AF /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889B254467CD00E111AF /* Extension+UIButton.swift */; };
+		AA9B88A025446CE500E111AF /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889F25446CE500E111AF /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppereanceStyle.swift; sourceTree = "<group>"; };
 		AA9B88992544596200E111AF /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
 		AA9B889B254467CD00E111AF /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		AA9B889F25446CE500E111AF /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				AA9B886725419D6500E111AF /* EasyUI.h */,
 				AA9B886825419D6500E111AF /* Info.plist */,
+				AA9B889F25446CE500E111AF /* RoundedImageView.swift */,
 				AA9B88872541AEB000E111AF /* CustomView.swift */,
 				AA9B888B254401E100E111AF /* CustomTableViewCell.swift */,
 				AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */,
@@ -242,6 +245,7 @@
 				AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */,
 				AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */,
 				AA9B88882541AEB000E111AF /* CustomView.swift in Sources */,
+				AA9B88A025446CE500E111AF /* RoundedImageView.swift in Sources */,
 				AA9B889625441DBB00E111AF /* TextFontStyle.swift in Sources */,
 				AA9B8890254406FA00E111AF /* CustomTableViewHeaderFooterView.swift in Sources */,
 				AA9B888E254405D600E111AF /* CustomCollectionViewCell.swift in Sources */,
