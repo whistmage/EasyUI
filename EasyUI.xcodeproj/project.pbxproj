@@ -21,6 +21,10 @@
 		AA9B8890254406FA00E111AF /* CustomTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */; };
 		AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */; };
 		AA9B889425441ACA00E111AF /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889325441ACA00E111AF /* Extension+UIColor.swift */; };
+		AA9B889625441DBB00E111AF /* TextFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889525441DBB00E111AF /* TextFontStyle.swift */; };
+		AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */; };
+		AA9B889A2544596200E111AF /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88992544596200E111AF /* Extension+UILabel.swift */; };
+		AA9B889C254467CD00E111AF /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889B254467CD00E111AF /* Extension+UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionReusableView.swift; sourceTree = "<group>"; };
 		AA9B889325441ACA00E111AF /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		AA9B889525441DBB00E111AF /* TextFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontStyle.swift; sourceTree = "<group>"; };
+		AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppereanceStyle.swift; sourceTree = "<group>"; };
+		AA9B88992544596200E111AF /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
+		AA9B889B254467CD00E111AF /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 				AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */,
 				AA9B88892541BB1100E111AF /* ViewCustomization.swift */,
 				AA9B889325441ACA00E111AF /* Extension+UIColor.swift */,
+				AA9B88992544596200E111AF /* Extension+UILabel.swift */,
+				AA9B889B254467CD00E111AF /* Extension+UIButton.swift */,
+				AA9B889525441DBB00E111AF /* TextFontStyle.swift */,
+				AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */,
 			);
 			path = EasyUI;
 			sourceTree = "<group>";
@@ -222,11 +234,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9B889C254467CD00E111AF /* Extension+UIButton.swift in Sources */,
 				AA9B888C254401E100E111AF /* CustomTableViewCell.swift in Sources */,
 				AA9B888A2541BB1100E111AF /* ViewCustomization.swift in Sources */,
+				AA9B889A2544596200E111AF /* Extension+UILabel.swift in Sources */,
 				AA9B889425441ACA00E111AF /* Extension+UIColor.swift in Sources */,
 				AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */,
+				AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */,
 				AA9B88882541AEB000E111AF /* CustomView.swift in Sources */,
+				AA9B889625441DBB00E111AF /* TextFontStyle.swift in Sources */,
 				AA9B8890254406FA00E111AF /* CustomTableViewHeaderFooterView.swift in Sources */,
 				AA9B888E254405D600E111AF /* CustomCollectionViewCell.swift in Sources */,
 			);
