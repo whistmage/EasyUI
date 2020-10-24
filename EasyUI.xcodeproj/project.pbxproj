@@ -19,6 +19,7 @@
 		AA9B888C254401E100E111AF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B888B254401E100E111AF /* CustomTableViewCell.swift */; };
 		AA9B888E254405D600E111AF /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */; };
 		AA9B8890254406FA00E111AF /* CustomTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */; };
+		AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		AA9B888B254401E100E111AF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				AA9B888B254401E100E111AF /* CustomTableViewCell.swift */,
 				AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */,
 				AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */,
+				AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */,
 				AA9B88892541BB1100E111AF /* ViewCustomization.swift */,
 			);
 			path = EasyUI;
@@ -218,6 +221,7 @@
 			files = (
 				AA9B888C254401E100E111AF /* CustomTableViewCell.swift in Sources */,
 				AA9B888A2541BB1100E111AF /* ViewCustomization.swift in Sources */,
+				AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */,
 				AA9B88882541AEB000E111AF /* CustomView.swift in Sources */,
 				AA9B8890254406FA00E111AF /* CustomTableViewHeaderFooterView.swift in Sources */,
 				AA9B888E254405D600E111AF /* CustomCollectionViewCell.swift in Sources */,
