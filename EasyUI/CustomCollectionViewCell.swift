@@ -1,15 +1,15 @@
 //
-//  AbstractView.swift
+//  CustomCollectionViewCell.swift
 //  EasyUI
 //
-//  Created by Ivan Miroshnik on 22.10.2020.
+//  Created by Ivan Miroshnik on 24.10.2020.
 //  Copyright © 2020 whistmage. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable public class CustomView: UIView, ViewCustomization {
-
+@IBDesignable class CustomCollectionViewCell: UICollectionViewCell, ViewCustomization {
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -20,21 +20,11 @@ import UIKit
         setupView()
     }
 
-    public required init(
-        center: CGPoint,
-        width: CGFloat, height: CGFloat
-    ) {
-        let frame = CGRect.init(
-            origin: center,
-            size: CGSize.init(
-                width: width,
-                height: height
-            )
-        )
-        super.init(frame: frame)
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
         setupView()
     }
-
+    
     public func addSubviws() {
         
     }
@@ -43,19 +33,19 @@ import UIKit
         
     }
 
-    public func configureViewLayout() {
-
-    }
-
     public func configureSubviewsLayout() {
         
     }
 
+    public func configureViewLayout() {
+        
+    }
+
     private func setupView() {
-        translatesAutoresizingMaskIntoConstraints = false
         addSubviws()
         makeSubviewsConstraints()
         configureViewLayout()
         configureSubviewsLayout()
     }
 }
+
