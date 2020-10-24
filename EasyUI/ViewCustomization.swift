@@ -9,6 +9,6 @@
 protocol ViewCustomization {
     func addSubviws()
     func makeSubviewsConstraints()
-    func configureSubviews()
-    func configureView()
+    func configureSubviewsLayout()
+    func configureViewLayout()
 }

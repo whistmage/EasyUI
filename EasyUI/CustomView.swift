@@ -20,8 +20,17 @@ public class CustomView: UIView, ViewCustomization {
         setupView()
     }
 
-    public required init(center: CGPoint, width: CGFloat, height: CGFloat) {
-        let frame = CGRect.init(origin: center, size: CGSize.init(width: width, height: height))
+    public required init(
+        center: CGPoint,
+        width: CGFloat, height: CGFloat
+    ) {
+        let frame = CGRect.init(
+            origin: center,
+            size: CGSize.init(
+                width: width,
+                height: height
+            )
+        )
         super.init(frame: frame)
         setupView()
     }
@@ -34,11 +43,11 @@ public class CustomView: UIView, ViewCustomization {
         
     }
 
-    public func configureView() {
+    public func configureViewLayout() {
 
     }
 
-    public func configureSubviews() {
+    public func configureSubviewsLayout() {
         
     }
 
@@ -46,7 +55,7 @@ public class CustomView: UIView, ViewCustomization {
         translatesAutoresizingMaskIntoConstraints = false
         addSubviws()
         makeSubviewsConstraints()
-        configureView()
-        configureSubviews()
+        configureViewLayout()
+        configureSubviewsLayout()
     }
 }
