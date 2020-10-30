@@ -23,9 +23,10 @@
 		AA9B889425441ACA00E111AF /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889325441ACA00E111AF /* Extension+UIColor.swift */; };
 		AA9B889625441DBB00E111AF /* TextFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889525441DBB00E111AF /* TextFontStyle.swift */; };
 		AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */; };
-		AA9B889A2544596200E111AF /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88992544596200E111AF /* Extension+UILabel.swift */; };
-		AA9B889C254467CD00E111AF /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889B254467CD00E111AF /* Extension+UIButton.swift */; };
+		AA9B889A2544596200E111AF /* UILabeStylelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B88992544596200E111AF /* UILabeStylelExtension.swift */; };
+		AA9B889C254467CD00E111AF /* UIbuttonStyleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889B254467CD00E111AF /* UIbuttonStyleExtension.swift */; };
 		AA9B88A025446CE500E111AF /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B889F25446CE500E111AF /* RoundedImageView.swift */; };
+		AA9C364E254C052E00738336 /* EasyUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9B886425419D6500E111AF /* EasyUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +50,8 @@
 		AA9B889325441ACA00E111AF /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		AA9B889525441DBB00E111AF /* TextFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontStyle.swift; sourceTree = "<group>"; };
 		AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppereanceStyle.swift; sourceTree = "<group>"; };
-		AA9B88992544596200E111AF /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
-		AA9B889B254467CD00E111AF /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		AA9B88992544596200E111AF /* UILabeStylelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabeStylelExtension.swift; sourceTree = "<group>"; };
+		AA9B889B254467CD00E111AF /* UIbuttonStyleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbuttonStyleExtension.swift; sourceTree = "<group>"; };
 		AA9B889F25446CE500E111AF /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9C364E254C052E00738336 /* EasyUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,7 @@
 				AA9B886625419D6500E111AF /* EasyUI */,
 				AA9B887425419E2A00E111AF /* EasyUIExamples */,
 				AA9B886525419D6500E111AF /* Products */,
+				AA9C364D254C052E00738336 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,18 +98,11 @@
 			children = (
 				AA9B886725419D6500E111AF /* EasyUI.h */,
 				AA9B886825419D6500E111AF /* Info.plist */,
-				AA9B889F25446CE500E111AF /* RoundedImageView.swift */,
-				AA9B88872541AEB000E111AF /* CustomView.swift */,
-				AA9B888B254401E100E111AF /* CustomTableViewCell.swift */,
-				AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */,
-				AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */,
-				AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */,
-				AA9B88892541BB1100E111AF /* ViewCustomization.swift */,
-				AA9B889325441ACA00E111AF /* Extension+UIColor.swift */,
-				AA9B88992544596200E111AF /* Extension+UILabel.swift */,
-				AA9B889B254467CD00E111AF /* Extension+UIButton.swift */,
-				AA9B889525441DBB00E111AF /* TextFontStyle.swift */,
-				AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */,
+				AA9C3655254C170D00738336 /* Protocol */,
+				AA9C364F254C156A00738336 /* BaseCustomComponent */,
+				AA9C3650254C158200738336 /* RoundedImageView */,
+				AA9C3651254C16B800738336 /* Style */,
+				AA9C3654254C170300738336 /* UIColorExtension */,
 			);
 			path = EasyUI;
 			sourceTree = "<group>";
@@ -123,6 +119,76 @@
 				AA9B888325419E2E00E111AF /* Info.plist */,
 			);
 			path = EasyUIExamples;
+			sourceTree = "<group>";
+		};
+		AA9C364D254C052E00738336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9C364F254C156A00738336 /* BaseCustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B88872541AEB000E111AF /* CustomView.swift */,
+				AA9B888B254401E100E111AF /* CustomTableViewCell.swift */,
+				AA9B888D254405D600E111AF /* CustomCollectionViewCell.swift */,
+				AA9B888F254406FA00E111AF /* CustomTableViewHeaderFooterView.swift */,
+				AA9B88912544082000E111AF /* CustomCollectionReusableView.swift */,
+			);
+			path = BaseCustomComponent;
+			sourceTree = "<group>";
+		};
+		AA9C3650254C158200738336 /* RoundedImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B889F25446CE500E111AF /* RoundedImageView.swift */,
+			);
+			path = RoundedImageView;
+			sourceTree = "<group>";
+		};
+		AA9C3651254C16B800738336 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C3653254C16D800738336 /* StyleData */,
+				AA9C3652254C16C600738336 /* Extension */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		AA9C3652254C16C600738336 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B88992544596200E111AF /* UILabeStylelExtension.swift */,
+				AA9B889B254467CD00E111AF /* UIbuttonStyleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA9C3653254C16D800738336 /* StyleData */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B889525441DBB00E111AF /* TextFontStyle.swift */,
+				AA9B889725441E7D00E111AF /* TextAppereanceStyle.swift */,
+			);
+			path = StyleData;
+			sourceTree = "<group>";
+		};
+		AA9C3654254C170300738336 /* UIColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B889325441ACA00E111AF /* Extension+UIColor.swift */,
+			);
+			path = UIColorExtension;
+			sourceTree = "<group>";
+		};
+		AA9C3655254C170D00738336 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B88892541BB1100E111AF /* ViewCustomization.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9B889C254467CD00E111AF /* Extension+UIButton.swift in Sources */,
+				AA9B889C254467CD00E111AF /* UIbuttonStyleExtension.swift in Sources */,
 				AA9B888C254401E100E111AF /* CustomTableViewCell.swift in Sources */,
 				AA9B888A2541BB1100E111AF /* ViewCustomization.swift in Sources */,
-				AA9B889A2544596200E111AF /* Extension+UILabel.swift in Sources */,
+				AA9B889A2544596200E111AF /* UILabeStylelExtension.swift in Sources */,
 				AA9B889425441ACA00E111AF /* Extension+UIColor.swift in Sources */,
 				AA9B88922544082000E111AF /* CustomCollectionReusableView.swift in Sources */,
 				AA9B889825441E7D00E111AF /* TextAppereanceStyle.swift in Sources */,
@@ -462,7 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMVB9NPB2C;
 				INFOPLIST_FILE = EasyUIExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMVB9NPB2C;
 				INFOPLIST_FILE = EasyUIExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
