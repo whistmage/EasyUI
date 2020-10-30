@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class CustomCollectionReusableView: UICollectionReusableView, ViewCustomization {
+@IBDesignable open class CustomCollectionReusableView: UICollectionReusableView, ViewCustomization {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,19 +20,19 @@ import UIKit
         setupView()
     }
 
-    public func addSubviws() {
+    open func addSubviws() {
         
     }
 
-    public func makeSubviewsConstraints() {
+    open func makeSubviewsConstraints() {
         
     }
 
-    public func configureSubviewsLayout() {
+    open func configureSubviewsLayout() {
         
     }
 
-    public func configureViewLayout() {
+    open func configureViewLayout() {
         
     }
 

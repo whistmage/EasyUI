@@ -26,19 +26,19 @@ import UIKit
         setupView()
     }
 
-    public func addSubviws() {
+    open func addSubviws() {
         
     }
 
-    public func makeSubviewsConstraints() {
+    open func makeSubviewsConstraints() {
         
     }
 
-    public func configureSubviewsLayout() {
+    open func configureSubviewsLayout() {
         
     }
 
-    public func configureViewLayout() {
+    open func configureViewLayout() {
         
     }
 
