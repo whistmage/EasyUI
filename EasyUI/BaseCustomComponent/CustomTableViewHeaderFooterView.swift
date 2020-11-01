@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class CustomTableViewHeaderFooterView: UITableViewHeaderFooterView, ViewCustomization {
+@IBDesignable open class CustomTableViewHeaderFooterView: UITableViewHeaderFooterView, ViewCustomization {
 
     public override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)

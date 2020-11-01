@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class CustomTableViewCell: UITableViewCell, ViewCustomization {
+@IBDesignable open class CustomTableViewCell: UITableViewCell, ViewCustomization {
 
     public override init(
         style: UITableViewCell.CellStyle,
