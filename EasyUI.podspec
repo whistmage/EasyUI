@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "EasyUI"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Swift library for UI"
   spec.description  = <<-DESC
       A small set of helpers for easier interface building.
@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.source        = { :git => "https://github.com/whistmage/EasyUI.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "EasyUI/**/*.{h,m,swift}"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5.0"
 end
