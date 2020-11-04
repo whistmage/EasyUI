@@ -26,7 +26,7 @@ import UIKit
         setupView()
     }
 
-    open func addSubviws() {
+    open func addSubviews() {
         
     }
 
@@ -44,7 +44,7 @@ import UIKit
 
     private func setupView() {
         selectionStyle = .none
-        addSubviws()
+        addSubviews()
         makeSubviewsConstraints()
         configureViewLayout()
         configureSubviewsLayout()

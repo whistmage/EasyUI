@@ -6,8 +6,8 @@
 //  Copyright © 2020 whistmage. All rights reserved.
 //
 
-protocol ViewCustomization {
-    func addSubviws()
+public protocol ViewCustomization {
+    func addSubviews()
     func makeSubviewsConstraints()
     func configureSubviewsLayout()
     func configureViewLayout()

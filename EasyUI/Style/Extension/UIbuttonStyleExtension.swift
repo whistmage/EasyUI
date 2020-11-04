@@ -10,7 +10,7 @@ import UIKit
 
 private var associatedObjectKey: UInt8 = 0
 
-extension UIButton {
+public extension UIButton {
 
     var text: String? {
         return titleLabel?.text

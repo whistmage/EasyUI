@@ -8,9 +8,9 @@
 
 import UIKit
 
-struct TextFontStyle {
+public struct TextFontStyle {
 
-    enum Mode: String {
+    public enum Mode: String {
         case bold
         case medium
         case regular

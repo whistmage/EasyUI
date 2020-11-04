@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct TextAppearanceStyle {
+public struct TextAppearanceStyle {
     var cornerRaius: CGFloat?
     var backgroundColor: UIColor?
     var borderColor: UIColor?
