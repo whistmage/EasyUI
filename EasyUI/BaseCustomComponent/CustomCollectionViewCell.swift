@@ -20,7 +20,7 @@ import UIKit
         setupView()
     }
     
-    open func addSubviws() {
+    open func addSubviews() {
         
     }
 
@@ -37,7 +37,7 @@ import UIKit
     }
 
     private func setupView() {
-        addSubviws()
+        addSubviews()
         makeSubviewsConstraints()
         configureViewLayout()
         configureSubviewsLayout()

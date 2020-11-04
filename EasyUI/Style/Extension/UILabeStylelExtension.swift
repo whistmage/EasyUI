@@ -10,7 +10,7 @@ import UIKit
 
 private var associatedObjectKey: UInt8 = 0
 
-extension UILabel {
+public extension UILabel {
 
     var attributes: [NSAttributedString.Key: Any] {
         get {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct TextFontStyle {
+public struct TextFontStyle {
 
     enum Mode: String {
         case bold
