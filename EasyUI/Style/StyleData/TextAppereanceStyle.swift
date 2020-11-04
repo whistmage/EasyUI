@@ -9,8 +9,21 @@
 import UIKit
 
 public struct TextAppearanceStyle {
+    
     var cornerRaius: CGFloat?
     var backgroundColor: UIColor?
     var borderColor: UIColor?
     var textColor: UIColor?
+    
+    public init(
+        cornerRaius: CGFloat?,
+        backgroundColor: UIColor?,
+        borderColor: UIColor?,
+        textColor: UIColor?
+    ) {
+        self.cornerRaius = cornerRaius
+        self.backgroundColor = backgroundColor
+        self.borderColor = borderColor
+        self.textColor = textColor
+    }
 }

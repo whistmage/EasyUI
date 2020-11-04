@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "EasyUI"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Swift library for UI"
   spec.description  = <<-DESC
       A small set of helpers for easier interface building.
