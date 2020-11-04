@@ -24,7 +24,7 @@ public struct TextFontStyle {
     let lineSpacing: CGFloat?
     let throughLine: Bool
 
-    init(
+    public init(
         fontFamily: String,
         mode: Mode,
         size: CGFloat,
